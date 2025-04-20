@@ -14,7 +14,7 @@ const ProductPage = () => {
       setLoading(true);
       try {
         const res = await fetch(
-          `http://localhost:8000/api/store/${storeName}/products`
+          `https://hyperlocal-store-29h4.onrender.com/api/store/${storeName}/products`
         );
         const data = await res.json();
         setProducts(data);

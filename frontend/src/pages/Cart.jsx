@@ -19,11 +19,14 @@ const CartPage = () => {
 
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:8000/api/orders", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ username, cart }),
-      });
+      const res = await fetch(
+        "https://hyperlocal-store-29h4.onrender.com/api/orders",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username, cart }),
+        }
+      );
 
       const data = await res.json();
       if (res.ok) {

@@ -9,7 +9,7 @@ const StoreList = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:8000/api/stores")
+    fetch("https://hyperlocal-store-29h4.onrender.com/api/stores")
       .then((res) => res.json())
       .then((data) => {
         setStores(data);
