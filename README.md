@@ -2,11 +2,28 @@
 
 This is a part of a hyperlocal store application where users can explore nearby stores and view the products available at each location. The application fetches store data from a backend API and displays the stores in a grid layout, allowing users to click and view products from any of the stores.
 
-## Features
+## ✨ Features
 
-- **View Stores**: Displays a list of stores with their names and locations.
-- **Responsive Design**: The layout adjusts based on screen size, ensuring a seamless experience on both mobile and desktop.
-- **Clean UI**: Simple, modern design with clear typography and card-based layout for each store.
+- **🛍️ View Stores**  
+  Displays a list of stores with their names and locations in a clean, organized card-based layout.
+
+- **🛒 Add to Cart**  
+  Users can add products to their cart from the store's product list.
+
+- **📦 Cart Page**  
+  - Shows selected products with quantity and price.  
+  - Displays total amount.  
+  - Users can input their name and place an order.
+
+- **✅ Place Order**  
+  - Order gets submitted to the backend.  
+  - After a successful order, users are redirected to a confirmation page.
+
+- **📄 Order Confirmation**  
+  - Displays the order ID and user’s name after successful placement.
+
+- **📱 Responsive Design**  
+  Seamless experience across all screen sizes — mobile, tablet, and desktop.
 
 ## Installation
 
